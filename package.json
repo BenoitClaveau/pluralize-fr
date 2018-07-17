@@ -21,6 +21,7 @@
     "url": "https://github.com/swestrich/pluralize-fr/issues"
   },
   "devDependencies": {
-    "unit.js": "2.x.x"
+    "unit.js": "latest",
+    "mocha": "latest"
   }
 }
