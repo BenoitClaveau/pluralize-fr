@@ -84,6 +84,8 @@ module.exports = (fullStr) => {
         else if (last_letter == "s") {
             singulier = str.substring(0, str.length - 1);
         }
+        else 
+            singulier = str;
         singuliers.push(singulier);
     }
     return singuliers.join(' ');
